@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.myaddressbook.main.MainActivity">
+    <item
+        android:id="@+id/save_contact"
+        android:orderInCategory="100"
+        android:title="@string/menu_save_contact"
+        
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/cancel_contact"
+        android:orderInCategory="100"
+        android:title="@string/menu_cancel_contact"
+        app:showAsAction="ifRoom" />
+
+</menu>

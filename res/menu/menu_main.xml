@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.myaddressbook.main.MainActivity">
+    <item
+        android:id="@+id/change_contact_info"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="100"
+        android:title="@string/menu_change_contact"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete_contact_info"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title="@string/menu_delete_contact"
+        app:showAsAction="always" />
+</menu>
